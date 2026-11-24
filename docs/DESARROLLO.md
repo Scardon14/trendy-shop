@@ -82,24 +82,6 @@ Si alguna vez una regla estorba, se avisa al equipo y se cambia aquí. No se sal
 - No la abras "solo para ver" y guardes sin querer.
 - No copies su contenido a tu página para imitar el resultado, se crea el riesgo de pisar los estilos de otras paginas.
 
-**⚠️ IMPORTANTE**
-
-Si necesitas algo de otra página, **pídeselo a quien la tiene**. No la toques tú. Priorizar la comunicacion, esto es crucial en el trabajo en equipo, lo acordamos en el contrato social.
-
-Estas tres reglas son la base de todo lo demás. Si cada quien trabaja en su propia página, dos personas nunca modifican el mismo archivo y Git no tiene nada que reconciliar.
-
-Antes de empezar, el equipo acuerda qué página le toca a cada quien:
-
-| Integrante | Página asignada | Archivos que edita |
-|---|---|---|
-| Argie Rincón Rodríguez | Nosotros | `tienda/nosotros/index.html`, `tienda/nosotros/nosotros.css`, `tienda/nosotros/nosotros.js` |
-| Pedro Sarabia Quispe | Carrito | `tienda/carrito/index.html`, `tienda/carrito/carrito.css`, `tienda/carrito/carrito.js` |
-| María Camila Berríos | Catálogo | `tienda/catalogo/index.html`, `tienda/catalogo/catalogo.css`, `tienda/catalogo/catalogo.js` |
-
-- Las tareas de cada página se crean en el [tablero de Trello](https://trello.com/b/NQBY1NXR/lumina)
-y se mueven de columna según su estado.
-- Cada tarea corresponde a una rama.
-
 ## Estructura
 
 Cada página es un **módulo**: una carpeta con su nombre de ruta que contiene sus
@@ -870,16 +852,6 @@ entienda de un vistazo qué cambió y quién lo hizo, sin tener que abrir el có
 ```
 iniciales-del-integrante/nombre-de-la-pagina
 ```
-
-Todo en minúsculas, separado por guiones.
-
-| Ejemplo | Qué significa |
-|---|---|
-| `arr/sobre-nosotros` | la página Nosotros, de Argie Rincón Rodríguez |
-| `psq/carrito-compras` | la página Carrito, de Pedro Saravia Quispe |
-| `mcb/catalogo` | la página Catálogo, de María Camila Berrío |
-
-Como la rama empieza con las iniciales, se sabe rápido quién la creó. Y como termina con el nombre de la página, se sabe rápido qué tarea se trabajó allí.
 
 Para crear una rama:
 
